@@ -1,0 +1,17 @@
+name: Training
+description: 'Provides Training content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - badcamp_event
+  - badcamp_session
+  - badcamp_venue
+  - datetime_range
+  - field
+  - field_permissions
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: BADCamp

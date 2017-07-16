@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.training
+  module:
+    - user
+id: node.training.teaser
+targetEntityType: node
+bundle: training
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }
