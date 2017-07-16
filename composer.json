@@ -1,0 +1,20 @@
+{
+    "name": "badcamp/badcamp_training",
+    "description": "Provides Training content type and related configuration.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sean Dietrich",
+            "email": "sean.e.dietrich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "badcamp/badcamp_event": "dev-master",
+        "badcamp_event": "dev-master",
+        "badcamp_session": "dev-master",
+        "badcamp_venue": "dev-master",
+        "drupal/field_permissions": "^1.0@beta"
+    }
+}
